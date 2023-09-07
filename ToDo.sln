@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.WebApi", "ToDo.WebApi\ToDo.WebApi.csproj", "{1FC10196-23A4-490A-A6B7-E62E0756D05E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.DAL", "ToDo.DAL\ToDo.DAL.csproj", "{56A3D54D-5902-4F7F-8936-D226C5140250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.BLL", "ToDo.BLL\ToDo.BLL.csproj", "{073EAD58-6B00-4FFF-8409-B05ACA174DE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FC10196-23A4-490A-A6B7-E62E0756D05E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC10196-23A4-490A-A6B7-E62E0756D05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC10196-23A4-490A-A6B7-E62E0756D05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC10196-23A4-490A-A6B7-E62E0756D05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A3D54D-5902-4F7F-8936-D226C5140250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A3D54D-5902-4F7F-8936-D226C5140250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A3D54D-5902-4F7F-8936-D226C5140250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A3D54D-5902-4F7F-8936-D226C5140250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073EAD58-6B00-4FFF-8409-B05ACA174DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073EAD58-6B00-4FFF-8409-B05ACA174DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073EAD58-6B00-4FFF-8409-B05ACA174DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073EAD58-6B00-4FFF-8409-B05ACA174DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40FE9C88-7908-45E9-B234-E03CF23CE260}
+	EndGlobalSection
+EndGlobal
