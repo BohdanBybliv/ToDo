@@ -1,8 +1,8 @@
 ﻿using ToDo.DAL.Enums;
 
-namespace ToDo.DAL.Entities
+namespace ToDo.BLL.DTOs
 {
-    public class Issue
+    public class IssueDTO
     {
         public int Id { get; set; }
         public required string Title { get; set; }
