@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using ToDo.BLL.Interfaces;
 using ToDo.BLL.Mapping;
+using ToDo.BLL.Services;
 using ToDo.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +17,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(IssueProfile));
+
+builder.Services.AddScoped<IIssueService, IssueService>();
 
 var app = builder.Build();
 
