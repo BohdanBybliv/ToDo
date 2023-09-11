@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ToDo.BLL.DTOs;
+﻿using ToDo.BLL.DTOs;
 
 namespace ToDo.BLL.Interfaces
 {
     public interface IIssueService
     {
-        Task Create(IssueDTO issueDTO);
+        Task<IEnumerable<IssueDTO>> GetAllAsync();
+        Task<int> Create(IssueDTO issueDTO);
+        Task<int> Update(IssueDTO issueDTO);
+        Task<int> Delete(int id);
     }
 }
